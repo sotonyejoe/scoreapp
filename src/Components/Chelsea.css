@@ -1,0 +1,29 @@
+.chelsea-bg{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 50%;
+}
+.chelsea-logo, .chelsea-text{
+    flex-basis: 50%;
+}
+.chelsea-text p{
+    text-align: center;
+    padding-top: 5rem;
+    padding-right: 2rem;
+    font-size: 3rem
+}
+
+@media  screen and (max-width: 770px) {
+    .chelsea-bg{
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding-left: 2rem;
+        padding-top: -1rem;
+    }
+  
+    .chelsea-text{
+        padding-left: 2rem;
+    }
+
+}

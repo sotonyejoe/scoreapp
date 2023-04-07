@@ -1,0 +1,15 @@
+.manu-bg{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+.manu-log0, .manu-text{
+    flex-basis: 50%;
+}
+
+.manu-text p{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 3rem
+}

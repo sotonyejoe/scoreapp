@@ -1,0 +1,91 @@
+
+.App{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, black, rgb(10, 10, 61, 0.52)), url('../src/Images/stadium.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:linear-gradient(to right, black, rgba(24, 13, 184, 0.52))
+  
+}
+.App-container{
+  width: 100%;
+  height: 100vh;
+ text-align: center;
+ padding: 4rem;
+}
+img{
+ max-width: 200px;
+}
+.header{
+  text-align: center;
+}
+.header p{
+  font-size: 5rem;
+  font-family: 'Secular One', sans-serif;
+}
+p{
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Secular One', sans-serif;
+  padding-top: 2rem;
+}
+.match-section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.the-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+}
+button{
+  padding: 20px 40px;
+  background: white;
+  color:rgb(6, 6, 53);
+  font-weight: bold;
+  font-family: 'Secular One', sans-serif;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+@media  screen and (max-width: 770px) {
+  .App{
+    height: 100%;
+    width: 100%;
+  }
+  .App-container{
+    height: 100vh;
+    display: flex;
+    padding-top: 1rem;
+  }
+  .header{
+    text-align: center;
+  }
+  .header p{
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  .match-section{
+    flex-direction: column;
+    justify-content: space-around;
+  } 
+  .the-button{
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    margin-left: -3rem;
+  }
+  button{
+    padding: 10px 20px;
+    font-size: 0.825rem;
+  }
+  .chel-btn{
+    padding-top: -3rem;
+  }
+}
